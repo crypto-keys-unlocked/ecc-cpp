@@ -1,0 +1,43 @@
+# Doxyfile 1.8.13
+
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "ecc_cpp"
+PROJECT_NUMBER         = 
+PROJECT_BRIEF          = "A C++ project implementing ECC and ECDH for key exchange and digital signature creation."
+PROJECT_LOGO           = ./logo.png
+
+# Directories
+OUTPUT_DIRECTORY       = ./docs
+INPUT                  = ./include ./src
+RECURSIVE              = YES
+
+# File patterns
+FILE_PATTERNS          = *.hpp *.cpp
+
+# Exclude patterns
+EXCLUDE_PATTERNS       = 
+
+# Source browser
+SOURCE_BROWSER         = YES
+
+# To extract all entities from .hpp and .cpp files
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_PACKAGE        = YES
+EXTRACT_STATIC         = YES
+
+# Use this for diagram generation
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# Output
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+# Main page
+USE_MDFILE_AS_MAINPAGE = ./include/mainpage.hpp
+
+# Other settings can be adjusted as per your requirements.
