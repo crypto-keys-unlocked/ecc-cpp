@@ -1,0 +1,5 @@
+<map id="BLAKE2b::mix" name="BLAKE2b::mix">
+<area shape="rect" id="Node000001" title="BLAKE2b mixing function." alt="" coords="5,5,113,32"/>
+<area shape="rect" id="Node000002" href="$class_b_l_a_k_e2b.html#abeef713fe8c707234dfa98633b69cd10" title="Performs right rotation on a 64&#45;bit word." alt="" coords="161,5,280,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,16,145,16,145,21,113,21"/>
+</map>

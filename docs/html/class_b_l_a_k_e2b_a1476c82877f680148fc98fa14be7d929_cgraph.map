@@ -1,0 +1,7 @@
+<map id="BLAKE2b::compress" name="BLAKE2b::compress">
+<area shape="rect" id="Node000001" title="Compresses a single 128&#45;byte block of the message." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="Node000002" href="$class_b_l_a_k_e2b.html#a74e67dce6dc8b9c518c3c0b7341ddeb1" title="BLAKE2b mixing function." alt="" coords="197,5,304,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,16,181,16,181,21,149,21"/>
+<area shape="rect" id="Node000003" href="$class_b_l_a_k_e2b.html#abeef713fe8c707234dfa98633b69cd10" title="Performs right rotation on a 64&#45;bit word." alt="" coords="352,5,471,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,16,337,16,337,21,305,21"/>
+</map>

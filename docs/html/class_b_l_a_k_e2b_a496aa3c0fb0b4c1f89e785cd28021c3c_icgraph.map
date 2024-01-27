@@ -1,0 +1,18 @@
+<map id="BLAKE2b::initialize" name="BLAKE2b::initialize">
+<area shape="rect" id="Node000001" title="Initializes the hash state with the optional key." alt="" coords="579,31,712,57"/>
+<area shape="rect" id="Node000002" href="$class_b_l_a_k_e2b.html#a0cb34701289716c0c638cdc7483066f7" title="Constructs a BLAKE2b hash object with optional hash length and key." alt="" coords="387,5,531,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="563,36,531,31,532,26,564,30"/>
+<area shape="rect" id="Node000003" href="$class_b_l_a_k_e2b.html#acd90ff174083fd29e87a51387e99dbef" title="Computes the BLAKE2b hash of the input message." alt="" coords="402,56,516,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="564,58,517,64,516,59,563,52"/>
+<area shape="rect" id="Node000004" href="$test_8cpp.html#a1d275de66a8d805a77cbe56fb88f9fe7" title=" " alt="" coords="237,5,339,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="396,54,335,35,336,30,398,48"/>
+<area shape="rect" id="Node000005" href="$class_e_c_d_s_a.html#a61c59dc0f5d7792dd9073af995395716" title="Signs a given message using ECDSA with a private key." alt="" coords="239,56,337,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="386,72,337,72,337,67,386,67"/>
+<area shape="rect" id="Node000008" href="$class_e_c_d_s_a.html#ae0041ede649a95c504a7ff5c3fc02cd8" title=" " alt="" coords="236,107,339,133"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="398,90,336,109,335,104,396,85"/>
+<area shape="rect" id="Node000006" href="$test_8cpp.html#a16e112cc0f7add79e8faf14aa508d649" title=" " alt="" coords="103,81,188,108"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="223,83,189,90,188,84,222,78"/>
+<area shape="rect" id="Node000007" href="$test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,81,55,108"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="87,97,55,97,55,92,87,92"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="220,111,188,105,189,100,221,105"/>
+</map>

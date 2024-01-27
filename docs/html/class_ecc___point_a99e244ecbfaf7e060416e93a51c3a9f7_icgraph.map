@@ -1,0 +1,21 @@
+<map id="Ecc_Point::setCurveParameters" name="Ecc_Point::setCurveParameters">
+<area shape="rect" id="Node000001" title="Sets the parameters of the elliptic curve based on the selected curve type." alt="" coords="703,31,909,57"/>
+<area shape="rect" id="Node000002" href="$class_ecc___point.html#a1ebac2b306f5b345ab12925e1a9e941b" title="Constructor to initialize an Ecc_Point with BigInt coordinates." alt="" coords="475,5,625,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="687,35,625,29,625,23,687,30"/>
+<area shape="rect" id="Node000003" href="$class_ecc___point.html#aed3ce329d39d697455b0c644cf26a06e" title="Retrieves a constant reference to the curve parameters." alt="" coords="445,56,655,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="687,58,655,62,655,56,687,53"/>
+<area shape="rect" id="Node000004" href="$namespace_e_c_d_h.html#a776875cf9c6451a9fe728ec85dc0f45a" title="Generates an ECC key pair for ECDH key exchange." alt="" coords="236,5,397,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="470,55,381,35,382,30,471,50"/>
+<area shape="rect" id="Node000008" href="$class_e_c_d_s_a.html#a61c59dc0f5d7792dd9073af995395716" title="Signs a given message using ECDSA with a private key." alt="" coords="268,56,366,83"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="430,72,366,72,366,67,430,67"/>
+<area shape="rect" id="Node000009" href="$class_e_c_d_s_a.html#ae0041ede649a95c504a7ff5c3fc02cd8" title=" " alt="" coords="265,107,368,133"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="471,89,369,111,368,106,470,84"/>
+<area shape="rect" id="Node000005" href="$test_8cpp.html#a9667e3e7d492c004c9cc2242f5008a92" title=" " alt="" coords="106,5,185,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="220,21,185,21,185,16,220,16"/>
+<area shape="rect" id="Node000006" href="$test_8cpp.html#a16e112cc0f7add79e8faf14aa508d649" title=" " alt="" coords="103,56,188,83"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="255,40,189,59,188,54,253,34"/>
+<area shape="rect" id="Node000007" href="$test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="252,72,188,72,188,67,252,67"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="253,104,188,84,189,79,255,99"/>
+</map>

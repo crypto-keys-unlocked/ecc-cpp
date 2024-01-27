@@ -1,0 +1,44 @@
+<map id="test_ecdsa" name="test_ecdsa">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,91,133"/>
+<area shape="rect" id="Node000002" href="$namespace_e_c_d_h.html#a776875cf9c6451a9fe728ec85dc0f45a" title="Generates an ECC key pair for ECDH key exchange." alt="" coords="139,56,300,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,105,156,85,158,90,92,110"/>
+<area shape="rect" id="Node000006" href="$class_e_c_d_s_a.html#a61c59dc0f5d7792dd9073af995395716" title="Signs a given message using ECDSA with a private key." alt="" coords="170,107,269,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="91,117,155,117,155,123,91,123"/>
+<area shape="rect" id="Node000017" href="$class_e_c_d_s_a.html#ae0041ede649a95c504a7ff5c3fc02cd8" title=" " alt="" coords="168,157,271,184"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="92,130,158,150,156,155,90,135"/>
+<area shape="rect" id="Node000003" href="$class_big_int.html#a05941a9738f292fff42130c617463a6e" title="Generates a random BigInt using the platform&#45;specific PRNG or GMP&#39;s PRNG as a fallback." alt="" coords="373,5,533,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,53,373,33,374,38,285,58"/>
+<area shape="rect" id="Node000004" href="$class_ecc___point.html#aed3ce329d39d697455b0c644cf26a06e" title="Retrieves a constant reference to the curve parameters." alt="" coords="348,56,557,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="300,67,332,67,332,72,300,72"/>
+<area shape="rect" id="Node000005" href="$class_ecc___point.html#a99e244ecbfaf7e060416e93a51c3a9f7" title="Sets the parameters of the elliptic curve based on the selected curve type." alt="" coords="605,56,812,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="558,67,590,67,590,72,558,72"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="268,106,299,92,313,80,322,67,331,54,347,42,358,36,360,41,349,46,335,58,326,71,317,84,301,97,270,111"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="268,107,372,84,373,89,270,112"/>
+<area shape="rect" id="Node000007" href="$ecdsa_8cpp.html#a659abdc2b368ff1b7e8158a839b5889a" title="Converts a vector of bytes (uint8_t) to a hexadecimal string." alt="" coords="408,107,498,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="269,117,392,117,392,123,269,123"/>
+<area shape="rect" id="Node000008" href="$class_ecc___point.html#a8ae94350559c8571fdfbc12e8128afcb" title="Get the x&#45;coordinate of the Ecc_Point." alt="" coords="396,157,510,184"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="270,128,381,152,379,158,268,133"/>
+<area shape="rect" id="Node000009" href="$class_b_l_a_k_e2b.html#acd90ff174083fd29e87a51387e99dbef" title="Computes the BLAKE2b hash of the input message." alt="" coords="396,208,510,235"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="270,129,301,143,317,156,326,169,335,182,349,194,381,207,379,212,347,198,331,186,322,173,313,160,299,148,268,134"/>
+<area shape="rect" id="Node000016" href="$class_big_int.html#a8fed86fdeaf3db9fc8d97c8991bc4542" title="Calculate the modular inverse of the BigInt." alt="" coords="389,259,516,285"/>
+<area shape="poly" id="edge19_Node000006_Node000016" title=" " alt="" coords="270,126,302,143,313,156,320,170,326,196,332,221,339,233,350,245,375,259,373,264,346,249,334,236,327,223,321,197,315,171,309,159,298,147,268,131"/>
+<area shape="rect" id="Node000010" href="$class_b_l_a_k_e2b.html#a2250f8f218065d01af65986b8e23328c" title="Finalizes the hash computation and produces the hash output." alt="" coords="860,157,986,184"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="510,208,605,193,731,181,844,172,845,178,731,186,606,199,511,213"/>
+<area shape="rect" id="Node000014" href="$class_b_l_a_k_e2b.html#a496aa3c0fb0b4c1f89e785cd28021c3c" title="Initializes the hash state with the optional key." alt="" coords="642,208,775,235"/>
+<area shape="poly" id="edge15_Node000009_Node000014" title=" " alt="" coords="510,219,626,219,626,224,510,224"/>
+<area shape="rect" id="Node000015" href="$class_b_l_a_k_e2b.html#a65f71d95df8eef210d62ed867bc256ab" title="Updates the hash state with a portion of the message." alt="" coords="860,208,986,235"/>
+<area shape="poly" id="edge18_Node000009_Node000015" title=" " alt="" coords="511,230,606,244,709,251,811,244,857,236,858,241,812,249,709,256,605,249,510,236"/>
+<area shape="rect" id="Node000011" href="$class_b_l_a_k_e2b.html#a1476c82877f680148fc98fa14be7d929" title="Compresses a single 128&#45;byte block of the message." alt="" coords="1034,183,1177,209"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="987,177,1019,181,1018,187,986,182"/>
+<area shape="rect" id="Node000012" href="$class_b_l_a_k_e2b.html#a74e67dce6dc8b9c518c3c0b7341ddeb1" title="BLAKE2b mixing function." alt="" coords="1225,183,1333,209"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="1178,193,1210,193,1210,199,1178,199"/>
+<area shape="rect" id="Node000013" href="$class_b_l_a_k_e2b.html#abeef713fe8c707234dfa98633b69cd10" title="Performs right rotation on a 64&#45;bit word." alt="" coords="1381,183,1500,209"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="1333,193,1365,193,1365,199,1333,199"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="776,219,844,219,844,224,776,224"/>
+<area shape="poly" id="edge17_Node000015_Node000011" title=" " alt="" coords="985,210,1018,205,1019,211,986,215"/>
+<area shape="poly" id="edge22_Node000017_Node000004" title=" " alt="" coords="270,156,299,143,313,131,322,118,331,105,347,92,358,87,360,91,349,97,335,109,326,121,317,134,301,148,273,161"/>
+<area shape="poly" id="edge21_Node000017_Node000007" title=" " alt="" coords="271,157,392,130,393,136,272,162"/>
+<area shape="poly" id="edge23_Node000017_Node000008" title=" " alt="" coords="271,168,380,168,380,173,271,173"/>
+<area shape="poly" id="edge24_Node000017_Node000009" title=" " alt="" coords="272,179,381,203,380,208,271,184"/>
+<area shape="poly" id="edge25_Node000017_Node000016" title=" " alt="" coords="241,182,289,213,349,244,375,253,374,258,347,249,286,218,238,187"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Ecc_Point::operator&#45;" name="Ecc_Point::operator&#45;">
+<area shape="rect" id="Node000001" title="Overloads the &#45; operator to negate this Ecc_Point." alt="" coords="5,5,146,32"/>
+<area shape="rect" id="Node000002" href="$class_ecc___point.html#af2496fafdd0f7ed07cb379d51e2818be" title="Default constructor to initialize an Ecc_Point with BigInt coordinates. Initializes with base points ..." alt="" coords="194,5,343,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,16,178,16,178,21,146,21"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="BLAKE2b::hash" name="BLAKE2b::hash">
+<area shape="rect" id="Node000001" title="Computes the BLAKE2b hash of the input message." alt="" coords="5,56,120,83"/>
+<area shape="rect" id="Node000002" href="$class_b_l_a_k_e2b.html#a2250f8f218065d01af65986b8e23328c" title="Finalizes the hash computation and produces the hash output." alt="" coords="349,5,475,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,53,167,41,253,29,333,21,334,27,254,35,168,47,115,58"/>
+<area shape="rect" id="Node000006" href="$class_b_l_a_k_e2b.html#a496aa3c0fb0b4c1f89e785cd28021c3c" title="Initializes the hash state with the optional key." alt="" coords="168,56,301,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="120,67,152,67,152,72,120,72"/>
+<area shape="rect" id="Node000007" href="$class_b_l_a_k_e2b.html#a65f71d95df8eef210d62ed867bc256ab" title="Updates the hash state with a portion of the message." alt="" coords="350,56,475,83"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="111,81,168,92,234,97,301,92,346,84,347,89,301,97,234,102,167,97,110,86"/>
+<area shape="rect" id="Node000003" href="$class_b_l_a_k_e2b.html#a1476c82877f680148fc98fa14be7d929" title="Compresses a single 128&#45;byte block of the message." alt="" coords="523,31,667,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="476,25,508,29,508,35,475,30"/>
+<area shape="rect" id="Node000004" href="$class_b_l_a_k_e2b.html#a74e67dce6dc8b9c518c3c0b7341ddeb1" title="BLAKE2b mixing function." alt="" coords="715,31,822,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="667,41,699,41,699,47,667,47"/>
+<area shape="rect" id="Node000005" href="$class_b_l_a_k_e2b.html#abeef713fe8c707234dfa98633b69cd10" title="Performs right rotation on a 64&#45;bit word." alt="" coords="870,31,989,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="823,41,855,41,855,47,823,47"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="301,67,334,67,334,72,301,72"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="475,58,508,53,508,59,475,63"/>
+</map>

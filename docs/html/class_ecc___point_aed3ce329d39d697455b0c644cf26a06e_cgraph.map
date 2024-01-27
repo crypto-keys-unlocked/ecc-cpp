@@ -1,0 +1,5 @@
+<map id="Ecc_Point::GetCurveParameters" name="Ecc_Point::GetCurveParameters">
+<area shape="rect" id="Node000001" title="Retrieves a constant reference to the curve parameters." alt="" coords="5,5,215,32"/>
+<area shape="rect" id="Node000002" href="$class_ecc___point.html#a99e244ecbfaf7e060416e93a51c3a9f7" title="Sets the parameters of the elliptic curve based on the selected curve type." alt="" coords="263,5,469,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,16,247,16,247,21,215,21"/>
+</map>

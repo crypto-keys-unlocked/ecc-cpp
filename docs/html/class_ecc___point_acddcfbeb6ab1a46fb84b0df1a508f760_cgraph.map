@@ -1,0 +1,5 @@
+<map id="Ecc_Point::print" name="Ecc_Point::print">
+<area shape="rect" id="Node000001" title="Prints the coordinates of the Ecc_Point." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="Node000002" href="$class_big_int.html#a4be795a7dc04a32e989f6dd0ff9f1582" title="Convert BigInt to a string representation." alt="" coords="168,5,275,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,16,152,16,152,21,120,21"/>
+</map>

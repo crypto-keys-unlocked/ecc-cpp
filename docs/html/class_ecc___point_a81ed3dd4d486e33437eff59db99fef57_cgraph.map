@@ -1,0 +1,7 @@
+<map id="Ecc_Point::doublePoint" name="Ecc_Point::doublePoint">
+<area shape="rect" id="Node000001" title="Doubles this Ecc_Point on the elliptic curve." alt="" coords="5,31,163,57"/>
+<area shape="rect" id="Node000002" href="$class_ecc___point.html#af2496fafdd0f7ed07cb379d51e2818be" title="Default constructor to initialize an Ecc_Point with BigInt coordinates. Initializes with base points ..." alt="" coords="211,5,360,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,31,195,27,196,33,164,37"/>
+<area shape="rect" id="Node000003" href="$class_big_int.html#a61a8b9fc5f30a921a9eafa6ada94ad84" title="Check if BigInt is zero." alt="" coords="237,56,334,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,51,222,59,221,64,163,57"/>
+</map>

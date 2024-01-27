@@ -1,0 +1,13 @@
+<map id="BLAKE2b::BLAKE2b" name="BLAKE2b::BLAKE2b">
+<area shape="rect" id="Node000001" title="Constructs a BLAKE2b hash object with optional hash length and key." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="Node000002" href="$class_b_l_a_k_e2b.html#a496aa3c0fb0b4c1f89e785cd28021c3c" title="Initializes the hash state with the optional key." alt="" coords="197,5,330,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,16,181,16,181,21,149,21"/>
+<area shape="rect" id="Node000003" href="$class_b_l_a_k_e2b.html#a65f71d95df8eef210d62ed867bc256ab" title="Updates the hash state with a portion of the message." alt="" coords="378,5,503,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="330,16,362,16,362,21,330,21"/>
+<area shape="rect" id="Node000004" href="$class_b_l_a_k_e2b.html#a1476c82877f680148fc98fa14be7d929" title="Compresses a single 128&#45;byte block of the message." alt="" coords="551,5,695,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="504,16,536,16,536,21,504,21"/>
+<area shape="rect" id="Node000005" href="$class_b_l_a_k_e2b.html#a74e67dce6dc8b9c518c3c0b7341ddeb1" title="BLAKE2b mixing function." alt="" coords="743,5,850,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="695,16,727,16,727,21,695,21"/>
+<area shape="rect" id="Node000006" href="$class_b_l_a_k_e2b.html#abeef713fe8c707234dfa98633b69cd10" title="Performs right rotation on a 64&#45;bit word." alt="" coords="898,5,1017,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="851,16,883,16,883,21,851,21"/>
+</map>

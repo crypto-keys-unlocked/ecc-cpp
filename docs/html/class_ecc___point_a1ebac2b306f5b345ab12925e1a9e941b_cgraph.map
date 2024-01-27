@@ -1,0 +1,5 @@
+<map id="Ecc_Point::Ecc_Point" name="Ecc_Point::Ecc_Point">
+<area shape="rect" id="Node000001" title="Constructor to initialize an Ecc_Point with BigInt coordinates." alt="" coords="5,5,155,32"/>
+<area shape="rect" id="Node000002" href="$class_ecc___point.html#a99e244ecbfaf7e060416e93a51c3a9f7" title="Sets the parameters of the elliptic curve based on the selected curve type." alt="" coords="203,5,409,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,16,187,16,187,21,155,21"/>
+</map>

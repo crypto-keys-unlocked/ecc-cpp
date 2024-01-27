@@ -1,0 +1,9 @@
+<map id="BLAKE2b::update" name="BLAKE2b::update">
+<area shape="rect" id="Node000001" title="Updates the hash state with a portion of the message." alt="" coords="5,5,131,32"/>
+<area shape="rect" id="Node000002" href="$class_b_l_a_k_e2b.html#a1476c82877f680148fc98fa14be7d929" title="Compresses a single 128&#45;byte block of the message." alt="" coords="179,5,322,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,16,163,16,163,21,131,21"/>
+<area shape="rect" id="Node000003" href="$class_b_l_a_k_e2b.html#a74e67dce6dc8b9c518c3c0b7341ddeb1" title="BLAKE2b mixing function." alt="" coords="370,5,477,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="323,16,355,16,355,21,323,21"/>
+<area shape="rect" id="Node000004" href="$class_b_l_a_k_e2b.html#abeef713fe8c707234dfa98633b69cd10" title="Performs right rotation on a 64&#45;bit word." alt="" coords="525,5,645,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="478,16,510,16,510,21,478,21"/>
+</map>

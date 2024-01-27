@@ -1,0 +1,9 @@
+<map id="ECDH::generateKeyPair" name="ECDH::generateKeyPair">
+<area shape="rect" id="Node000001" title="Generates an ECC key pair for ECDH key exchange." alt="" coords="5,31,167,57"/>
+<area shape="rect" id="Node000002" href="$class_big_int.html#a05941a9738f292fff42130c617463a6e" title="Generates a random BigInt using the platform&#45;specific PRNG or GMP&#39;s PRNG as a fallback." alt="" coords="239,5,400,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,33,224,26,224,32,167,38"/>
+<area shape="rect" id="Node000003" href="$class_ecc___point.html#aed3ce329d39d697455b0c644cf26a06e" title="Retrieves a constant reference to the curve parameters." alt="" coords="215,56,424,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,50,199,54,199,59,166,55"/>
+<area shape="rect" id="Node000004" href="$class_ecc___point.html#a99e244ecbfaf7e060416e93a51c3a9f7" title="Sets the parameters of the elliptic curve based on the selected curve type." alt="" coords="472,56,678,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="424,67,456,67,456,72,424,72"/>
+</map>

@@ -1,10 +1,9 @@
 # Doxyfile 1.8.13
 
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "ecc_cpp"
-PROJECT_NUMBER         = 
-PROJECT_BRIEF          = "A C++ project implementing ECC and ECDH for key exchange and digital signature creation."
-PROJECT_LOGO           = ./logo.png
+PROJECT_NAME           = "ecc-cpp"
+PROJECT_BRIEF          = "A C++ project implementing ECC and ECDH for key exchange and ECDSA for digital signature creation. Hash Algorithm blake2a is also implemeted."
+PROJECT_LOGO           = Images/ecc-cpp.png
 
 # Directories
 OUTPUT_DIRECTORY       = ./docs
@@ -39,5 +38,3 @@ HTML_OUTPUT            = html
 
 # Main page
 USE_MDFILE_AS_MAINPAGE = ./include/mainpage.hpp
-
-# Other settings can be adjusted as per your requirements.

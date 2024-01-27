@@ -1,0 +1,14 @@
+<map id="BigInt::generateRandom" name="BigInt::generateRandom">
+<area shape="rect" id="Node000001" title="Generates a random BigInt using the platform&#45;specific PRNG or GMP&#39;s PRNG as a fallback." alt="" coords="445,31,606,57"/>
+<area shape="rect" id="Node000002" href="$namespace_e_c_d_h.html#a776875cf9c6451a9fe728ec85dc0f45a" title="Generates an ECC key pair for ECDH key exchange." alt="" coords="236,5,397,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,35,398,31,398,26,430,30"/>
+<area shape="rect" id="Node000006" href="$class_e_c_d_s_a.html#a61c59dc0f5d7792dd9073af995395716" title="Signs a given message using ECDSA with a private key." alt="" coords="268,56,366,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="430,58,367,66,366,61,430,53"/>
+<area shape="rect" id="Node000003" href="$test_8cpp.html#a9667e3e7d492c004c9cc2242f5008a92" title=" " alt="" coords="106,5,185,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,21,185,21,185,16,220,16"/>
+<area shape="rect" id="Node000004" href="$test_8cpp.html#a16e112cc0f7add79e8faf14aa508d649" title=" " alt="" coords="103,56,188,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="255,40,189,59,188,54,253,34"/>
+<area shape="rect" id="Node000005" href="$test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="252,72,188,72,188,67,252,67"/>
+</map>

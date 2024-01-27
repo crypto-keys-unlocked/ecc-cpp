@@ -1,0 +1,11 @@
+<map id="Ecc_Point::operator*" name="Ecc_Point::operator*">
+<area shape="rect" id="Node000001" title="Overloads the * operator for scalar multiplication of this Ecc_Point." alt="" coords="5,31,147,57"/>
+<area shape="rect" id="Node000002" href="$class_ecc___point.html#a81ed3dd4d486e33437eff59db99fef57" title="Doubles this Ecc_Point on the elliptic curve." alt="" coords="195,31,352,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,41,179,41,179,47,147,47"/>
+<area shape="rect" id="Node000003" href="$class_ecc___point.html#af2496fafdd0f7ed07cb379d51e2818be" title="Default constructor to initialize an Ecc_Point with BigInt coordinates. Initializes with base points ..." alt="" coords="400,5,549,32"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="130,27,194,16,293,10,385,11,385,17,293,16,195,21,131,33"/>
+<area shape="rect" id="Node000004" href="$class_big_int.html#a61a8b9fc5f30a921a9eafa6ada94ad84" title="Check if BigInt is zero." alt="" coords="426,68,523,95"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="133,55,195,67,309,76,411,79,411,84,309,82,194,72,132,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="352,31,384,27,385,33,353,37"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="349,55,412,67,411,72,348,61"/>
+</map>

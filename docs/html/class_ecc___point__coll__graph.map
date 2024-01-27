@@ -1,0 +1,8 @@
+<map id="Ecc_Point" name="Ecc_Point">
+<area shape="rect" id="Node000001" title="Represents a point on an elliptic curve." alt="" coords="13,272,95,299"/>
+<area shape="rect" id="Node000002" href="$struct_curve_parameters.html" title="Holds the parameters of an elliptic curve." alt="" coords="80,179,201,205"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,219,68,273,64,270,116,215"/>
+<area shape="rect" id="Node000003" href="$class_big_int.html" title="A class for arbitrary&#45;precision integers using the GMP library." alt="" coords="5,5,60,32"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="30,48,22,121,21,164,26,207,37,242,50,270,45,273,32,244,21,209,16,165,16,120,25,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="51,44,135,177,130,179,46,47"/>
+</map>

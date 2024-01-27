@@ -1,0 +1,9 @@
+<map id="BLAKE2b::finalize" name="BLAKE2b::finalize">
+<area shape="rect" id="Node000001" title="Finalizes the hash computation and produces the hash output." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="Node000002" href="$class_b_l_a_k_e2b.html#a1476c82877f680148fc98fa14be7d929" title="Compresses a single 128&#45;byte block of the message." alt="" coords="180,5,323,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,16,164,16,164,21,132,21"/>
+<area shape="rect" id="Node000003" href="$class_b_l_a_k_e2b.html#a74e67dce6dc8b9c518c3c0b7341ddeb1" title="BLAKE2b mixing function." alt="" coords="371,5,478,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="324,16,356,16,356,21,324,21"/>
+<area shape="rect" id="Node000004" href="$class_b_l_a_k_e2b.html#abeef713fe8c707234dfa98633b69cd10" title="Performs right rotation on a 64&#45;bit word." alt="" coords="526,5,646,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="479,16,511,16,511,21,479,21"/>
+</map>
