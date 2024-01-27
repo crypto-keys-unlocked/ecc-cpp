@@ -1,4 +1,4 @@
-![ecc-cpp Logo](./ecc-cpp.png)
+![ecc-cpp Logo](./Images/ecc-cpp.png)
 # ecc-cpp: Elliptic Curve Cryptography Library in C++
 
 ecc-cpp is a comprehensive C++ library that implements Elliptic Curve Cryptography (ECC), providing functionalities for basic elliptic curve operations, Elliptic Curve Diffie-Hellman (ECDH), and Elliptic Curve Digital Signature Algorithm (ECDSA). This library uses the GNU Multiple Precision Arithmetic Library (GMP) for big integer operations and includes an implementation of the Blake2b cryptographic hash function.
