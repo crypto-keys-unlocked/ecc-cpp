@@ -187,6 +187,36 @@ public:
     bool operator==(const Ecc_Point& other) const;
 
 
+    /**
+     * @brief Retrieves a constant reference to the curve parameters.
+     * 
+     * This static function provides access to the elliptic curve parameters used by all instances of Ecc_Point.
+     * It ensures that the curve parameters are initialized only once and then reused for any subsequent calls,
+     * improving efficiency and consistency across Ecc_Point instances.
+     * 
+     * The function works by creating a temporary Ecc_Point object to trigger the initialization of curve parameters
+     * within the constructor of Ecc_Point. These parameters are then copied to a static CurveParameters variable,
+     * which is returned by reference to the caller.
+     * 
+     * @note This function is thread-safe only if the compiler guarantees the thread-safe initialization of local static variables.
+     * 
+     * @return A constant reference to the statically stored CurveParameters object, ensuring that all Ecc_Point instances
+     * share the same set of elliptic curve parameters.
+     */
+    static const CurveParameters& GetCurveParameters() {
+        static CurveParameters staticCurveParams;
+        static bool initialized = false;
+        if (!initialized) {
+            Ecc_Point temp;
+            temp.setCurveParameters();
+            temp.isInfinity=false;
+            staticCurveParams = temp.curveParams;
+            initialized = true;
+        }
+        return staticCurveParams;
+    }
+    
+
 private:
     CurveParameters curveParams;
     BigInt xCoord; ///< The x-coordinate of the Ecc_Point.

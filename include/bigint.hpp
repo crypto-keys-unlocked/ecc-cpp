@@ -4,6 +4,18 @@
 #include <gmp.h>
 #include <string>
 #include <vector>
+#include <limits>
+#include <stdexcept>
+#include <cstdint>
+
+#if defined(_WIN32) || defined(_WIN64)
+    #include <windows.h>
+    #include <wincrypt.h>
+#elif defined(__linux__) || defined(__unix__) || defined(__APPLE__)
+    #include <fcntl.h>
+    #include <unistd.h>
+    #include <sys/stat.h>
+#endif
 
 /**
  * @class BigInt
@@ -280,6 +292,63 @@ public:
      * @return The result of the right shift operation.
      */
     BigInt rightShift(unsigned long int shiftBy) const;
+
+    /**
+     * @brief Generates a random BigInt using the platform-specific PRNG or GMP's PRNG as a fallback.
+     * @param numBits The number of bits in the desired random BigInt.
+     * @return A random BigInt of the specified bit size.
+     */
+    static BigInt generateRandom(size_t numBits);
+
+    /**
+     * @brief Adds a single byte to the BigInt value.
+     *
+     * This method shifts the current BigInt value left by 8 bits (1 byte) to make room for the new byte and then adds the byte to the BigInt. This is equivalent to multiplying the BigInt by 256 and adding the byte value. It is useful for constructing a BigInt from a binary representation, such as converting a string to a BigInt where each character is treated as a byte.
+     *
+     * @param byte The byte to add to the BigInt. It is treated as an unsigned value, so negative numbers will be converted to their unsigned equivalent.
+     */
+    void addByte(unsigned char byte);
+
+    /**
+     * @brief Converts the BigInt to an unsigned long safely.
+     *
+     * Attempts to convert the BigInt to an unsigned long. If the BigInt value
+     * is too large to fit in an unsigned long, it either returns the maximum
+     * unsigned long value or throws an overflow exception.
+     *
+     * @return The BigInt value as an unsigned long, or the maximum value for
+     * unsigned long if the BigInt is too large.
+     * @throws std::overflow_error if the BigInt value exceeds the range of
+     * an unsigned long.
+     */
+    unsigned long toULongSafe() const {
+        if (mpz_fits_ulong_p(value) != 0) {
+            return mpz_get_ui(value);
+        } else {
+            throw std::overflow_error("BigInt value exceeds the range of unsigned long");
+        }
+    }
+
+    /**
+     * @brief Converts a BigInt to its string representation.
+     *
+     * This function takes a BigInt object and converts it to a string. The conversion process involves extracting each byte from the BigInt, starting from the least significant byte, and constructing the corresponding string. This is particularly useful for converting large numerical values, stored in a BigInt, back to a human-readable string format.
+     *
+     * @param bigint The BigInt object to be converted to a string.
+     * @return A string representation of the BigInt object.
+     */
+    std::string bigIntToString(const BigInt& bigint);
+
+    /**
+     * @brief Converts a string to a BigInt object.
+     *
+     * This function takes a string representation of a number and converts it into a BigInt object. It is capable of handling very large numbers that are represented as strings, converting them into a BigInt format for further numerical manipulations. Each character in the string is treated as a byte in the base-256 number system, allowing for the conversion of arbitrary binary data into a BigInt.
+     *
+     * @param str The string to be converted to a BigInt object. The string can represent a very large number or arbitrary binary data.
+     * @return A BigInt object representing the numerical value of the input string.
+     */
+    BigInt stringToBigInt(const std::string& str);
+
 
 private:
     mpz_t value; // The GMP mpz_t representing the BigInt.

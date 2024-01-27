@@ -1,4 +1,4 @@
-#include "../include/bigint.hpp"
+#include "bigint.hpp"
 #include <stdexcept>
 #include <iostream>
 
@@ -224,4 +224,74 @@ void BigInt::printAbsolute() const {
     mpz_abs(absValue, value);
     mpz_out_str(stdout, 10, absValue);
     mpz_clear(absValue);
+}
+
+void BigInt::addByte(unsigned char byte) {
+    mpz_mul_2exp(value, value, 8);  
+    mpz_add_ui(value, value, byte);
+}
+
+BigInt BigInt::generateRandom(size_t numBits) {
+    BigInt randNum;
+    size_t numBytes = (numBits + 7) / 8;
+
+    #if defined(_WIN32) || defined(_WIN64)
+    // std:: cout <<" Entering here \n";
+    HCRYPTPROV hProvider = 0;
+    BYTE* buffer = new BYTE[numBytes];
+    if (CryptAcquireContext(&hProvider, NULL, NULL, PROV_RSA_FULL, CRYPT_VERIFYCONTEXT)) {
+        CryptGenRandom(hProvider, numBytes, buffer);
+        mpz_import(randNum.value, numBytes, 1, sizeof(buffer[0]), 0, 0, buffer);
+        CryptReleaseContext(hProvider, 0);
+    }
+    delete[] buffer;
+
+    #elif defined(__linux__) || defined(__unix__) || defined(__APPLE__)
+    int fd = open("/dev/urandom", O_RDONLY);
+    if (fd != -1) {
+        char* buffer = new char[numBytes];
+        read(fd, buffer, numBytes);
+        mpz_import(randNum.value, numBytes, 1, sizeof(buffer[0]), 0, 0, buffer);
+        close(fd);
+        delete[] buffer;
+    }
+
+    #else
+    gmp_randstate_t state;
+    gmp_randinit_default(state);
+    mpz_urandomb(randNum.value, state, numBits);
+    gmp_randclear(state);
+    #endif
+    // std:: cout <<" Working \n";
+    // randNum.print();
+    return randNum;
+}
+
+
+BigInt stringToBigInt(const std::string& str) {
+    BigInt result;
+    for (unsigned char c : str) {
+        result.addByte(c);
+    }
+    return result;
+}
+
+std::string bigIntToString(const BigInt& bigint) {
+    std::string result;
+    BigInt current = bigint;
+    BigInt zero(static_cast<unsigned long int>(0));
+    const BigInt byteSize(static_cast<unsigned long int>(256));
+
+    while (current > zero) {
+        try {
+            unsigned long remainderValue = (current % byteSize).toULongSafe();
+            unsigned char byte = static_cast<unsigned char>(remainderValue);
+            result.insert(0, 1, byte);
+            current /= byteSize;
+        } catch (const std::overflow_error& e) {
+            break;
+        }
+    }
+
+    return result;
 }
